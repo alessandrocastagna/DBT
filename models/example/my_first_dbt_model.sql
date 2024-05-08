@@ -13,10 +13,13 @@ with source_data as (
 
     select 1 as id
     union all
-    select null as id
+    select cast(0 as int) as id
 
 )
 
 select *
 from source_data
+<<<<<<< HEAD
+=======
 where id is not null
+>>>>>>> a248d598a00d4ef8ae47577514b42f17d4fac1db
