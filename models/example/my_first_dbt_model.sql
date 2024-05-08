@@ -11,4 +11,5 @@ with source_data as (
 select *
 from source_data
 -- commento per il CI
+--seconda prova
 where id is not null
