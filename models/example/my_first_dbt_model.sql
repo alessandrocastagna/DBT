@@ -19,3 +19,7 @@ with source_data as (
 
 select *
 from source_data
+<<<<<<< HEAD
+=======
+where id is not null
+>>>>>>> a248d598a00d4ef8ae47577514b42f17d4fac1db
